@@ -1,0 +1,26 @@
+﻿<Window x:Class="PLForm.orderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLForm"
+        mc:Ignorable="d"
+        Title="orderWindow" Height="300" Width="434">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dataGrid"/>
+        <Grid Grid.Column="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="labelBranchID" Content="Branch ID:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="67" Margin="0,1,0,0"/>
+            <TextBox x:Name="txtBranchID" HorizontalAlignment="Left" Height="15" Margin="72,5,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="115" TextChanged="textBox_TextChanged"/>
+        </Grid>
+
+
+    </Grid>
+</Window>
