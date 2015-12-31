@@ -1,0 +1,4 @@
+c:\users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BE.1\bin\Debug\BE.1.dll
+c:\users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BE.1\bin\Debug\BE.1.pdb
+c:\users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BE.1\obj\Debug\BE.1.dll
+c:\users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BE.1\obj\Debug\BE.1.pdb
