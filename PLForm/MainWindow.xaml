@@ -19,7 +19,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="buttonOrder"  Content="Order" FontFamily="Goudy Old Style" FontSize="48"  />
-            <Button x:Name="buttonBranch" BorderBrush="Black" Content="Branch" FontFamily="Goudy Old Style" FontSize="48" Grid.Column="1"/>
+            <Button x:Name="buttonBranch" BorderBrush="Black" Content="Branch" FontFamily="Goudy Old Style" FontSize="48" Grid.Column="1" Click="branchWindow" />
             <Button x:Name="buttonDish"  Content="Dish"  FontFamily="Goudy Old Style" FontSize="48" Grid.Column="2" />
         </Grid>
         <Image x:Name="logo_png" HorizontalAlignment="Center" VerticalAlignment="Center" Source="logo.png" />

@@ -20,3 +20,11 @@ c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\PLForm\obj\Deb
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\PLForm\obj\Debug\PLForms.csproj.GenerateResource.Cache
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\PLForm\obj\Debug\PLForm.exe
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\PLForm\obj\Debug\PLForm.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\PLForm\obj\Debug\PLForms.csprojResolveAssemblyReference.cache
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\PLForm\obj\Debug\MainWindow.g.cs
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\PLForm\obj\Debug\branchWindow.g.cs
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\PLForm\obj\Debug\App.g.cs
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\PLForm\obj\Debug\PLForm_MarkupCompile.cache
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\PLForm\obj\Debug\PLForm_MarkupCompile.lref
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\PLForm\obj\Debug\PLForm.exe
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\PLForm\obj\Debug\PLForm.pdb

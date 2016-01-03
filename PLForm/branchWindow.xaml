@@ -12,13 +12,56 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <DataGrid x:Name="dataGrid"/>
-        <Grid Grid.Column="1" >
+        <Grid x:Name="InfoGrid" Grid.Column="1" >
             <Grid.RowDefinitions>
                 <RowDefinition/>
-                <RowDefinition Height="9*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="6*"/>
             </Grid.RowDefinitions>
-            <Label x:Name="labelBranchID" Content="Branch ID:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="67" Margin="0,1,0,0"/>
-            <TextBox x:Name="txtBranchID" HorizontalAlignment="Left" Height="15" Margin="72,5,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="115" TextChanged="textBox_TextChanged"/>
+            <Grid x:Name="BranchGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="labelBranchID" Content="Branch ID:" />
+                <TextBox x:Name="txtBranchID"  TextWrapping="Wrap" Text="" Grid.Column="1"/>
+            </Grid>
+
+
+            <Grid x:Name="ButtonGrid" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Add_Button" Content="Add" />
+                <Button x:Name="Update_Button" Content="Update" Grid.Column="1" />
+                <Button x:Name="Delete_Button" Content="Delete" Grid.Column="2" />
+            </Grid>
+            <Grid x:Name="InfoGrid1" Grid.Row="2" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="Label_Panel" Orientation="Vertical">
+                    <Label x:Name="LabelName" Content="Name:"/>
+                    <Label x:Name="LabelAddress" Content="Address:"/>
+                    <Label x:Name="LabelPhoneNum" Content="PhoneNum:"/>
+                    <Label x:Name="LabelManager" Content="Manager:"/>
+                    <Label x:Name="LabelEmployees" Content="Employees:"/>
+                    <Label x:Name="LabelDelivery" Content="Delivery Available:"/>
+                    <Label x:Name="LabelHechser" Content="Hechser:"/>
+                </StackPanel>
+                <StackPanel x:Name="Text_Panel" Grid.Column="1" >
+                    <TextBox x:Name="textBoxName" MinHeight="26" Text=""/>
+                    <TextBox x:Name="textBoxAddress" MinHeight="26" Text=""/>
+                    <TextBox x:Name="textBoxPhoneNum" MinHeight="26" Text=""/>
+                    <TextBox x:Name="textBoxManager" MinHeight="26" Text=""/>
+                    <TextBox x:Name="textBoxEmployees"  MinHeight="26" Text=""/>
+                    <TextBox x:Name="textBoxDelivery"  MinHeight="26" Text=""/>
+                    <TextBox x:Name="textBoxHechser" MinHeight="26" Text=""/>
+                </StackPanel>
+            </Grid>
         </Grid>
 
 

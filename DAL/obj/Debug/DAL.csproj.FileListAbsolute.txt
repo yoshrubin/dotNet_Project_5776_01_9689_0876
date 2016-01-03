@@ -5,3 +5,10 @@ c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\DAL\bin\Debug\
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\DAL\obj\Debug\DAL.dll
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\DAL\obj\Debug\DAL.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin\Debug\DAL.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin\Debug\DAL.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin\Debug\BE.1.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin\Debug\BE.1.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.pdb

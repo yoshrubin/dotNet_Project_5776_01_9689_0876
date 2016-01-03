@@ -43,8 +43,6 @@ namespace BE
         public int branchEmployee { get; private set; }
         public int branchDeliveryFree { get; private set; }
         public branchHechser branchHechserBranch { get; private set; }
-        public List<Dish> listDishforBranch { get; private set; }
-        public List<Order> listOrderforBranch { get; private set; }
         //functions
         public override string ToString()
         {

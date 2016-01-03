@@ -9,3 +9,6 @@ c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BL\bin\Debug\D
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BL\obj\Debug\BL.dll
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BL\obj\Debug\BL.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.pdb

@@ -7,3 +7,12 @@ c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\DS\bin\Debug\D
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\DS\obj\Debug\DS.dll
 c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\DS\obj\Debug\DS.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\DS.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\DS.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\BE.1.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\DAL.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\BE.1.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\DAL.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.pdb

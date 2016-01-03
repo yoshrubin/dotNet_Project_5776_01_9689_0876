@@ -28,16 +28,23 @@ namespace PLForm
             bl = FactoryBL.getIBL();
             return bl;
         }
-
+   
         public MainWindow()
         {
             InitializeComponent();
             //comboBoxHechser.ItemsSource = Enum.GetValues(typeof(BE.branchHechser));
         }
-       /* private void addDishClick(object sender, RoutedEventArgs e)
+
+        private void branchWindowOpen(object sender, RoutedEventArgs e)
         {
-            string dishname = this.inputText.Text;
+            Window branchWindow = new orderWindow();
+            branchWindow.Show();
+            this.Close();
         }
-        */
+        /* private void addDishClick(object sender, RoutedEventArgs e)
+{
+    string dishname = this.inputText.Text;
+}
+*/
     }
 }
