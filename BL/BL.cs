@@ -53,7 +53,7 @@ namespace BL
         #endregion
 
         //EXTRA
-        double SumMoneyDishes();
+        double SumMoneyDishesBranch(Branch x);
         Dish mostOrderedDish();
         bool tooLittleMoniesDelivery(double x);
         List<Dish> holierThanThou();

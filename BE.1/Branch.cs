@@ -43,6 +43,20 @@ namespace BE
         public int branchEmployee { get; private set; }
         public int branchDeliveryFree { get; private set; }
         public branchHechser branchHechserBranch { get; private set; }
+        static private string branchManagerPassword
+        {
+            get
+            {
+                return branchManagerPassword;
+            }
+            set
+            {
+                if (value == null)
+                    branchManagerPassword = "saveTheQueen770";
+                else
+                    branchManagerPassword = value; 
+            }
+        }
         //functions
         public override string ToString()
         {
@@ -65,6 +79,24 @@ namespace BE
         {
             Random r = new Random();
             branchID = r.Next(1, 999);
+        }
+        public bool passwordCorrect(string passwordAttempt)
+        {
+            if (passwordAttempt.CompareTo(branchManagerPassword) == 0)
+                return true;
+            else
+                return false;
+        }
+        public bool insertNewPassword(string oldPassword, string newPassword)
+        {
+            if (passwordCorrect(oldPassword))
+            {
+                branchManagerPassword = newPassword;
+                return true;
+            }
+            else
+                return false;
+
         }
     }
 }

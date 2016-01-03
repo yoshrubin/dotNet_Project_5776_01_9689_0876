@@ -70,10 +70,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="orderWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="branchWindow.xaml.cs">
       <DependentUpon>branchWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="orderWindow.xaml.cs">
+      <DependentUpon>orderWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

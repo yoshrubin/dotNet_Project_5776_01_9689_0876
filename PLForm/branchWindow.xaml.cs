@@ -15,13 +15,14 @@ using System.Windows.Shapes;
 namespace PLForm
 {
     /// <summary>
-    /// Interaction logic for orderWindow.xaml
+    /// Interaction logic for branchWindow.xaml
     /// </summary>
-    public partial class orderWindow : Window
+    public partial class branchWindow : Window
     {
-        public orderWindow()
+        public branchWindow()
         {
             InitializeComponent();
         }
+
     }
 }

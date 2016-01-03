@@ -266,15 +266,18 @@ namespace BL
         #endregion
         #endregion
 
-        public double SumMoneyDishes()
+        public double SumMoneyDishesBranch(Branch x)
         {
             double sumMoney = 0;
             foreach (Ordered_Dish item in ordDishList)
             {
-                double temp = findDishPrice(item.ordDishID); // sending to func we created to find and return dish price.
-                for (int i = 0; i < item.ordDishNum; i++)
+                if (x.branchID == item.ordDishID)//if the dish applies to the Branch.
                 {
-                    sumMoney += temp;
+                    double temp = findDishPrice(item.ordDishID); // sending to func we created to find and return dish price.
+                    for (int i = 0; i < item.ordDishNum; i++)
+                    {
+                        sumMoney += temp;
+                    }
                 }
             }
             return sumMoney;
@@ -389,12 +392,13 @@ namespace BL
             double mostMoney = 0; // Highest amount of money for the Branch
             double sumOrdDishes = 0; // Sum of money from all the ordered dishes of a branch
             Branch bestBranch = null;
-            foreach (Branch branchitem in branchList)
+            foreach (Branch branchitem in branchList)//go through each branch
             {
-                foreach (Order item in branchitem.listOrderforBranch)
+                foreach (Order item in orderList)
                 {
-                    if (item.orderTime.Month == DateTime.Now.Month) // Only consider the orders made within the Month.
-                        sumOrdDishes += SumMoneyDishes();
+                    // Only consider the orders made within the Month, and from that branch.
+                    if (item.orderTime.Month == DateTime.Now.Month && item.orderBranch == branchitem.branchID)
+                        sumOrdDishes += SumMoneyDishesBranch(branchitem);
                 }
                 if (sumOrdDishes > mostMoney)
                 {
