@@ -230,3 +230,9 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 dotNet_Project.2_9689_9876/
+*.lref
+.vs/dotNet5776_Project01.2_9689_0876/v14/.suo
+*.dll
+BE.1/bin/Debug/BE.1.pdb
+*.dll
+*.cache
