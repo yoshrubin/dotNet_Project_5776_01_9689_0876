@@ -10,6 +10,11 @@ namespace BE
     public class Branch
     {
         //ctor
+        public Branch()
+        {
+            accessGranted = false;
+            branchManagerPassword = "saveTheQueen770";
+        }
         public Branch(string branchName, string branchAddress, long branchPhoneNum, string branchManager, int branchEmployee, int branchDeliveryFree, branchHechser branchHechserBranch, int branchID = 0)
         {
             this.branchID = branchID;
@@ -20,6 +25,8 @@ namespace BE
             this.branchEmployee = branchEmployee;
             this.branchDeliveryFree = branchDeliveryFree;
             this.branchHechserBranch = branchHechserBranch;
+            accessGranted = false;
+            branchManagerPassword = "saveTheQueen770";
         }
         //properties
         public int branchID
@@ -43,20 +50,8 @@ namespace BE
         public int branchEmployee { get; private set; }
         public int branchDeliveryFree { get; private set; }
         public branchHechser branchHechserBranch { get; private set; }
-        static private string branchManagerPassword
-        {
-            get
-            {
-                return branchManagerPassword;
-            }
-            set
-            {
-                if (value == null)
-                    branchManagerPassword = "saveTheQueen770";
-                else
-                    branchManagerPassword = value; 
-            }
-        }
+        static private string branchManagerPassword;
+        static private bool accessGranted;
         //functions
         public override string ToString()
         {
@@ -97,6 +92,18 @@ namespace BE
             else
                 return false;
 
+        }
+        public void grantAccess()
+        {
+            accessGranted = true;
+        }
+        public void denyAccess()
+        {
+            accessGranted = false;
+        }
+        public bool getAccess()
+        {
+            return accessGranted;
         }
     }
 }

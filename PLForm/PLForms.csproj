@@ -81,6 +81,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="passwordWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="branchWindow.xaml.cs">
@@ -88,6 +92,9 @@
     </Compile>
     <Compile Include="orderWindow.xaml.cs">
       <DependentUpon>orderWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="passwordWindow.xaml.cs">
+      <DependentUpon>passwordWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

@@ -22,7 +22,26 @@ namespace PLForm
         public orderWindow()
         {
             InitializeComponent();
+           
         }
-
+        //Selects the branchName of all Branches
+        void BranchBoxItems(string ToAdd = null)
+        {
+            if (ToAdd == null)
+            {
+                ComboBoxItem temp;
+                foreach (Branch item in bl.sumBranch())
+                {
+                    temp = new ComboBoxItem();
+                    temp.Content = item.branchName;
+                    temp.Tag = item.branchID;
+                    comboBoxBranch.Items.Add(temp);
+                }
+            }
+            else
+            {
+                comboBoxBranch.Items.Add(ToAdd);
+            }
+        }
     }
 }

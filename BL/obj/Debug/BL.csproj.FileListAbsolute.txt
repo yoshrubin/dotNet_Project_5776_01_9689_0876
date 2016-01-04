@@ -12,3 +12,11 @@ c:\Users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BL\obj\Debug\B
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.dll
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BL.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BL.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BE.1.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DAL.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DS.dll
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BE.1.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DAL.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DS.pdb

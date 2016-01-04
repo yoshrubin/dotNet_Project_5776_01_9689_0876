@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PLForm"
         mc:Ignorable="d"
-        Title="dishWindow" Height="300" Width="300">
+        Title="dishWindow" >
     <Grid>
         <Grid >
             <Grid.RowDefinitions>

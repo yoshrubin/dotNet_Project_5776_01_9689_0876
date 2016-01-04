@@ -8,20 +8,50 @@
         Title="MainWindow">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="29*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="75*"/>
-            <RowDefinition Height="25*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
-        <Grid  Grid.Row="1">
+        <Grid  Grid.Row="2" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="buttonOrder"  Content="Order" FontFamily="Goudy Old Style" FontSize="48"  />
-            <Button x:Name="buttonBranch" BorderBrush="Black" Content="Branch" FontFamily="Goudy Old Style" FontSize="48" Grid.Column="1" Click="branchWindow" />
-            <Button x:Name="buttonDish"  Content="Dish"  FontFamily="Goudy Old Style" FontSize="48" Grid.Column="2" />
+            <Button x:Name="buttonOrder"  Content="Order" FontFamily="Goudy Old Style" FontSize="48" Click="branchOrderOpen"  />
+            <Button x:Name="buttonBranch" BorderBrush="Black" Content="Branch" FontFamily="Goudy Old Style" FontSize="48" Grid.Column="1" Click="branchWindowOpen" />
+            <Button x:Name="buttonDish"  Content="Dish"  FontFamily="Goudy Old Style" FontSize="48" Grid.Column="2" Click="dishWindowOpen" />
         </Grid>
-        <Image x:Name="logo_png" HorizontalAlignment="Center" VerticalAlignment="Center" Source="logo.png" />
+        <Image x:Name="logo_png" HorizontalAlignment="Center" VerticalAlignment="Center" Source="logo.png"  Grid.Row="1" Grid.ColumnSpan="2"  />
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label x:Name="labelChooseBranch" Content="Choose Branch:" FontSize="26"/>
+            <Label x:Name="labelChooseOrder" Content="Choose Order:" Grid.Column="1" FontSize="26" />
+            <Label x:Name="label2ChooseDish" Content="Choose Dish:" Grid.Column="2" FontSize="26"/>
+            <ComboBox x:Name="comboBoxBranch"  Grid.Row="1" />
+            <ComboBox x:Name="comboBoxOrder" Grid.Column="1" Grid.Row="1" />
+            <ComboBox x:Name="comboBoxDish" Grid.Column="2" Grid.Row="1" />
+        </Grid>
+        <Grid Grid.Column="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="buttonOrdDish" Content="Make an Order" FontSize="24" Click="addOrdDish" Grid.Row="1" />
+            <Button x:Name="buttonNewPassword" Content="Insert New Password" FontSize="18" Click="buttonNewPassword_Click" />
+        </Grid>
     </Grid>
 </Window>

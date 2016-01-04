@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PLForm"
         mc:Ignorable="d"
-        Title="orderWindow" Height="300" Width="300">
+        Title="orderWindow" >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -19,8 +19,8 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Label x:Name="branchIdLabel" Content="Branch ID:" />
-            <ComboBox x:Name="comboBoxBranch" Grid.Column="1" />
+            <Label x:Name="branchIdLabel" Content="Branch Name:" />
+            <ComboBox x:Name="comboBoxBranch" Grid.Column="1" SelectionChanged="comboBoxBranch_SelectionChanged" />
             <Label x:Name="orderIDLabel" Content="Order ID:" Grid.Column="2" />
             <TextBox x:Name="textBox" Grid.Column="3"  Text="" />
         </Grid>

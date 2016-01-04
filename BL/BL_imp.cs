@@ -15,7 +15,7 @@ namespace BL
         //ADD
         #region // add functions revamped
         // Checks if the branch exists by the branchID, if it doesn't, it is add it to the branchlist.
-        public void addBranch(Branch x)
+       public void addBranch(Branch x)
         {
             bool available = true;
             if (x.branchID > 0)
