@@ -28,6 +28,7 @@ namespace PLForm
             InitializeComponent();
             bl = BL.FactoryBL.getIBL();
 
+            dataGridBranch.ItemsSource = bl.sumBranch();
             comboBoxHechser.ItemsSource = Enum.GetValues(typeof(BE.branchHechser));
         }
 
@@ -65,6 +66,7 @@ namespace PLForm
                     throw new Exception("Lacking Hechser.");
                 BE.Branch currentBranch = new BE.Branch(name, address, phoneNum, manager, employee, deliveryFree, hechser, id);
                 bl.addBranch(currentBranch);
+                dataGridBranch.Items.Refresh();
                 MessageBox.Show("You have added the Branch with the id: " + currentBranch.branchID.ToString());
                 //Clear the form:
                 txtBranchID.Text = "";
@@ -95,64 +97,45 @@ namespace PLForm
                 {
                     //If the textBox == "", meaning it's empty, it wont update that info.
 
-                    string name;
-                    if (textBoxName.Text == "")
-                        name = tempBranch.branchName;
-                    else
-                        name = textBoxName.Text;
+                    if (textBoxName.Text != "")
+                        tempBranch.branchName = textBoxName.Text;
 
-                    string address;
-                    if (textBoxAddress.Text == "")
-                        address = tempBranch.branchAddress;
-                    else
-                        address = textBoxAddress.Text;
+                    if (textBoxAddress.Text != "")
+                        tempBranch.branchAddress = textBoxAddress.Text;
 
-                    long phoneNum;
-                    if (textBoxPhoneNum.Text == "")
-                        phoneNum = tempBranch.branchPhoneNum;
-                    else
-                    {
+                    if (textBoxPhoneNum.Text != "")
+                    { 
                         if (textBoxPhoneNum.Text.Length != 10)
                             throw new Exception("Phone number not accurate.");
                         else
-                            phoneNum = int.Parse(textBoxPhoneNum.Text);
+                            tempBranch.branchPhoneNum= int.Parse(textBoxPhoneNum.Text);
                     }
 
-                    string manager;
-                    if (textBoxManager.Text == "")
-                        manager = tempBranch.branchManager;
-                    else
-                        manager = textBoxManager.Text;
-                  
-                    int employee;
-                    if (textBoxEmployees.Text == "")
-                        employee = tempBranch.branchEmployee;
-                    else
+                    if (textBoxManager.Text != "")
+                        tempBranch.branchManager = textBoxManager.Text;
+
+                    if (textBoxEmployees.Text != "")
                     {
                         if (int.Parse(textBoxEmployees.Text) < 1)
                             throw new Exception("Innacurate Employees.");
                         else
-                            employee = int.Parse(textBoxEmployees.Text);
+                            tempBranch.branchEmployee = int.Parse(textBoxEmployees.Text);
                     }
 
-                    int deliveryFree;
-                    if (textBoxDelivery.Text == "")
-                        deliveryFree = tempBranch.branchDeliveryFree;
-                    else
+                    if (textBoxDelivery.Text != "")
                     {
                         if (int.Parse(textBoxDelivery.Text) < 0)
                             throw new Exception("Innacurate Delivery.");
                         else
-                            deliveryFree = int.Parse(textBoxDelivery.Text);
+                            tempBranch.branchDeliveryFree = int.Parse(textBoxDelivery.Text);
                     }
 
-                    branchHechser hechser;
-                    if ((branchHechser)comboBoxHechser.SelectedItem < 0)
-                        hechser = tempBranch.branchHechserBranch;
-                    else
-                        hechser = (branchHechser)comboBoxHechser.SelectedItem;
+                    //not change the hechser:
+                    if ((int)comboBoxHechser.SelectedItem >= 0)
+                        tempBranch.branchHechserBranch = (branchHechser)comboBoxHechser.SelectedItem;
 
                     bl.updateBranch(tempBranch);
+                    dataGridBranch.Items.Refresh();
                     MessageBox.Show("Branch: " + tempBranch.branchID.ToString() + " has been updated.");          
                 }
             }
@@ -172,6 +155,7 @@ namespace PLForm
                 if (tempBranch == null) // if the id doesn't exists within the branchlist.
                     throw new Exception("Dish with given id not found.");
                 bl.deleteBranch(tempBranch.branchID);
+                dataGridBranch.Items.Refresh();
                 throw new Exception("Branch with id: " + tempBranch.branchID + " has been deleted.");
             }
             catch (Exception ex)
@@ -180,6 +164,7 @@ namespace PLForm
             }
 
         }
+<<<<<<< HEAD
 
        /* private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -188,5 +173,7 @@ namespace PLForm
                 DataGrid dg = sender as DataGrid;
             }
         }*/
+=======
+>>>>>>> origin/master
     }
 }
