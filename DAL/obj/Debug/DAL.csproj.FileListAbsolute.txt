@@ -12,3 +12,10 @@ C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.dll
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin\Debug\DAL.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin\Debug\DAL.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin\Debug\BE.1.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\bin\Debug\BE.1.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DAL\obj\Debug\DAL.pdb

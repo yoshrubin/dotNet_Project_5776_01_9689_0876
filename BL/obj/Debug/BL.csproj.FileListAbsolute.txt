@@ -20,3 +20,14 @@ C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BE.1.pdb
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DAL.pdb
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DS.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BL.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BL.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BE.1.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DAL.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DS.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\BE.1.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DAL.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\bin\Debug\DS.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BL\obj\Debug\BL.pdb

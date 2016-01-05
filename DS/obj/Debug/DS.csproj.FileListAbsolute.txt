@@ -16,3 +16,12 @@ C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.dll
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\DS.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\DS.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\BE.1.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\DAL.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\BE.1.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\bin\Debug\DAL.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\DS\obj\Debug\DS.pdb

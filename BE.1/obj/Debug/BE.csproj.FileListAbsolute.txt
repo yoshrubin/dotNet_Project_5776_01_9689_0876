@@ -7,3 +7,8 @@ C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\bi
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.1.dll
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.1.pdb
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\bin\Debug\BE.1.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\bin\Debug\BE.1.pdb
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.1.dll
+C:\Users\yrubi\OneDrive\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.1.pdb

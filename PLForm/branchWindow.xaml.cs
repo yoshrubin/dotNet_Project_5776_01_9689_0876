@@ -181,11 +181,12 @@ namespace PLForm
 
         }
 
-        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+       /* private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             try
             {
                 DataGrid dg = sender as DataGrid;
-        }
+            }
+        }*/
     }
 }
