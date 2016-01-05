@@ -236,3 +236,8 @@ dotNet_Project.2_9689_9876/
 BE.1/bin/Debug/BE.1.pdb
 *.dll
 *.cache
+*.suo
+.vs/dotNet5776_Project01.2_9689_0876/v14/.suo
+*.dll
+*.pdb
+*.pdb

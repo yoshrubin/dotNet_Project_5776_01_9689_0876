@@ -11,6 +11,10 @@ namespace BE
     public class Order
     {
         //ctor
+        public Order()
+        {
+            orderID = 0;
+        }
         public Order(int orderID, DateTime orderTime, int orderBranch, orderHechser orderHechserOrder, int orderStaff, string orderCustomer, string orderCustAddress, string orderCustLocation, int orderCustCC, int orderAge)
         {
             this.orderID = orderID;
