@@ -4,6 +4,6 @@ c:\users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BE.1\obj\Debug
 c:\users\shaul solomon\documents\visual studio 2015\Projects\BE.1\BE.1\obj\Debug\BE.1.pdb
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\bin\Debug\BE.1.dll
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\bin\Debug\BE.1.pdb
-C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.csprojResolveAssemblyReference.cache
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.1.dll
 C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.1.pdb
+C:\Users\Shaul Solomon\Documents\GitHub\dotNet_Project_5776_01_9689_0876\BE.1\obj\Debug\BE.csprojResolveAssemblyReference.cache

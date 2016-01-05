@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using BE;
 
 namespace PLForm
 {
@@ -19,10 +20,11 @@ namespace PLForm
     /// </summary>
     public partial class orderWindow : Window
     {
+        BL.IBL bl;
         public orderWindow()
         {
             InitializeComponent();
-           
+            bl = BL.FactoryBL.getIBL();
         }
         //Selects the branchName of all Branches
         void BranchBoxItems(string ToAdd = null)

@@ -131,7 +131,9 @@ namespace BL
         {
             Branch tempB = getBranch(x);
             if (tempB != null)
+            {
                 branchList.Remove(tempB);
+            }
             else
                 throw new Exception("Can't delete Branch, for the Branch doesn't exist.");
         }

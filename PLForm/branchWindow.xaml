@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PLForm"
         mc:Ignorable="d"
-        Title="branchWindow" Height="300" Width="434">
+        Title="branchWindow">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="dataGrid"/>
+        <DataGrid x:Name="dataGridBranch"  IsReadOnly="True" SelectionChanged="dataGrid_SelectionChanged"  />
         <Grid x:Name="InfoGrid" Grid.Column="1" >
             <Grid.RowDefinitions>
                 <RowDefinition/>
@@ -34,9 +34,9 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Button x:Name="Add_Button" Content="Add" />
-                <Button x:Name="Update_Button" Content="Update" Grid.Column="1" />
-                <Button x:Name="Delete_Button" Content="Delete" Grid.Column="2" />
+                <Button x:Name="Add_Button" Content="Add" Click="Add_Button_Click" />
+                <Button x:Name="Update_Button" Content="Update" Grid.Column="1" Click="Update_Button_Click" />
+                <Button x:Name="Delete_Button" Content="Delete" Grid.Column="2" Click="Delete_Button_Click" />
             </Grid>
             <Grid x:Name="InfoGrid1" Grid.Row="2" >
                 <Grid.ColumnDefinitions>

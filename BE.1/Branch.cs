@@ -12,7 +12,7 @@ namespace BE
         //ctor
         public Branch()
         {
-            accessGranted = false;
+            accessGranted = true;
             branchManagerPassword = "saveTheQueen770";
         }
         public Branch(string branchName, string branchAddress, long branchPhoneNum, string branchManager, int branchEmployee, int branchDeliveryFree, branchHechser branchHechserBranch, int branchID = 0)
@@ -25,31 +25,33 @@ namespace BE
             this.branchEmployee = branchEmployee;
             this.branchDeliveryFree = branchDeliveryFree;
             this.branchHechserBranch = branchHechserBranch;
-            accessGranted = false;
+            accessGranted = true;
             branchManagerPassword = "saveTheQueen770";
         }
         //properties
         public int branchID
         {
-            get
-            {
-                return branchID;
-            }
-            private set
-            {
-                if (value > 999 && value <= 0) //limit of the number of branches  
-                    throw new Exception("branchID isn't within range of usable numbers.");
-                else
-                    branchID = value;
-            }
+            get; set;
         }
-        public string branchName { get; private set; }
-        public string branchAddress { get; private set; }
-        public long branchPhoneNum { get; private set; }
-        public string branchManager { get; private set; }
-        public int branchEmployee { get; private set; }
-        public int branchDeliveryFree { get; private set; }
-        public branchHechser branchHechserBranch { get; private set; }
+            //get
+            //{
+            //    return branchID;
+            //}
+            //set
+            //{
+            //    if (value > 999 && value <= 0) //limit of the number of branches  
+            //        throw new Exception("branchID isn't within range of usable numbers.");
+            //    else
+            //        branchID = value;
+            //}
+        
+        public string branchName { get; set; }
+        public string branchAddress { get; set; }
+        public long branchPhoneNum { get; set; }
+        public string branchManager { get; set; }
+        public int branchEmployee { get; set; }
+        public int branchDeliveryFree { get; set; }
+        public branchHechser branchHechserBranch { get; set; }
         static private string branchManagerPassword;
         static private bool accessGranted;
         //functions

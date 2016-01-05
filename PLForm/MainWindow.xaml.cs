@@ -29,10 +29,12 @@ namespace PLForm
             bl = FactoryBL.getIBL();
             return bl;
         }
+
         public MainWindow()
         {
             InitializeComponent();
             Form1();
+            x.grantAccess();
             try
             {
                 BranchBoxItems();
@@ -45,6 +47,7 @@ namespace PLForm
             }
         }
 
+        #region comboBox
         //Selects the branchName of all Branches
         void BranchBoxItems(string ToAdd = null)
         {
@@ -105,7 +108,9 @@ namespace PLForm
                 comboBoxBranch.Items.Add(ToAdd);
             }
         }
+        #endregion
 
+        #region click to open new Window
         Branch x = new Branch();
         private void branchWindowOpen(object sender, RoutedEventArgs e)
         {
@@ -133,6 +138,12 @@ namespace PLForm
                 new passwordWindow().Show();
         }
 
+        private void buttonNewPassword_Click(object sender, RoutedEventArgs e)
+        {
+            new passwordWindow().Show();
+        }
+        #endregion
+
         private void addOrdDish(object sender, RoutedEventArgs e)
         {
             try
@@ -147,16 +158,10 @@ namespace PLForm
                 else
                     throw new Exception("Missing critical information.");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
-
-        private void buttonNewPassword_Click(object sender, RoutedEventArgs e)
-        {
-            new passwordWindow().Show();
-        }
     }
 }
-//comboBoxHechser.ItemsSource = Enum.GetValues(typeof(BE.branchHechser));
