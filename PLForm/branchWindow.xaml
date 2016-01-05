@@ -7,15 +7,18 @@
         mc:Ignorable="d"
         Title="branchWindow">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
-            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="dataGridBranch"  IsReadOnly="True" SelectionChanged="dataGrid_SelectionChanged"  />
-        <Grid x:Name="InfoGrid" Grid.Column="1" >
+        <DataGrid x:Name="dataGridBranch"  IsReadOnly="True" Grid.Row="1"  />
+        <Grid x:Name="InfoGrid" >
             <Grid.RowDefinitions>
                 <RowDefinition/>
-                <RowDefinition Height="2*"/>
+                <RowDefinition/>
                 <RowDefinition Height="6*"/>
             </Grid.RowDefinitions>
             <Grid x:Name="BranchGrid">
@@ -24,7 +27,7 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Label x:Name="labelBranchID" Content="Branch ID:" />
-                <TextBox x:Name="txtBranchID"  TextWrapping="Wrap" Text="" Grid.Column="1"/>
+                <TextBox x:Name="txtBranchID"  TextWrapping="Wrap"  Grid.Column="1"/>
             </Grid>
 
 

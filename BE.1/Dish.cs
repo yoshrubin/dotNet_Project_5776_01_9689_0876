@@ -11,6 +11,10 @@ namespace BE
     public class Dish
     {
         //ctor
+        public Dish()
+        {
+            dishID = 0;
+        }
         public Dish(int dishID, string dishName, double dishPrice, dishSize dishSizeDish, dishHechser dishHechserDish)
         {
             this.dishID = dishID;
