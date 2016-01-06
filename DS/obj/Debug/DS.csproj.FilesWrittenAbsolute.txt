@@ -1,0 +1,9 @@
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/bin/Debug/DS.dll.mdb
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/bin/Debug/DS.dll
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/obj/Debug/DS.dll
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/obj/Debug/DS.dll.mdb
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/bin/Debug/BE.1.dll
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/bin/Debug/BE.1.dll.mdb
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/bin/Debug/DAL.dll
+/Users/yoshi/Documents/Gits/dotNet_Project.2_9689_0876/DS/bin/Debug/DAL.dll.mdb
